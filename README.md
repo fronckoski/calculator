@@ -1,4 +1,3 @@
-<h1>Calculator!<h1>
 <p>A calculator made with Javascript and HTML. I am currently completing this project as an asignment while going through The Odin Project.</p>
   
 <h2>Features to be added:<h2>
