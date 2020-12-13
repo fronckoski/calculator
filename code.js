@@ -120,10 +120,11 @@ function multiply(a, b) {
     return a * b;
 };
 function division(a, b) {
-    if (parseFloat(b) == 0){
-        return "Cannot divide by zero.";
+    if (parseInt(b) == 0){
+        return "Cannot divide 0";
     } else {
-        return Math.round(a / b);
+        var newSum = a / b;
+        return Math.floor(newSum);
     };
 };
 
