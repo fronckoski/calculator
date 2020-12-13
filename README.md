@@ -5,5 +5,5 @@
   <li>More efficient troubleshooting, and google-fu.</li>
   <li>Tooooons about CSS Grid and when it's applicable.</li>
   <li>A lot about the flow of the backend of a web application, and how to control it.</li>
-  <li>The importance of using event listeners, opposed to "onclick" attribute in the HTML element.     </li>
+  <li>The importance of using event listeners, opposed to an "onclick" attribute in the HTML               element.</li>
 </ul>
