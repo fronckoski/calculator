@@ -7,60 +7,26 @@
     <div class="container">
       <h1 id="page-title"></h1>
       <div class="calculator-container">
-        <div id="calculator-screen">
-          <p id="calculator-screen-displaybox"><a id='user-input'></a></p>
+        <div id="calculator-display" class="calculator-screen">
+          <p id="input-history"></p>
+          <p id="user-input"></p>
         </div>
-        <button onclick="appendValue(0)" id="numb-0-button" class="calculator-buttons">
-          <p class="calculator-button-child">0</p>
-        </button>
-        <button onclick="appendValue(1)" id="numb-1-button" class="calculator-buttons">
-          <p class="calculator-button-child">1</p>
-        </button>
-        <button onclick="appendValue(2)" id="numb-2-button" class="calculator-buttons">
-          <p class="calculator-button-child">2</p>
-        </button>
-        <button onclick="appendValue(3)" id="numb-3-button" class="calculator-buttons">
-          <p class="calculator-button-child">3</p>
-        </button>
-        <button onclick="appendValue(4)" id="numb-4-button" class="calculator-buttons">
-          <p class="calculator-button-child">4</p>
-        </button>
-        <button onclick="appendValue(5)" id="numb-5-button" class="calculator-buttons">
-          <p class="calculator-button-child">5</p>
-        </button>
-        <button onclick="appendValue(6)" id="numb-6-button" class="calculator-buttons">
-          <p class="calculator-button-child">6</p>
-        </button>
-        <button onclick="appendValue(7)" id="numb-7-button" class="calculator-buttons">
-          <p class="calculator-button-child">7</p>
-        </button>
-        <button onclick="appendValue(8)" id="numb-8-button" class="calculator-buttons">
-          <p class="calculator-button-child">8</p>
-        </button>
-        <button onclick="appendValue(9)" id="numb-9-button" class="calculator-buttons">
-          <p class="calculator-button-child">9</p>
-        </button>
-        <button onclick="selectedOperator('+')" id="plus-button" class="operator-buttons">
-          <p>+</p>
-        </button>
-        <button onclick="selectedOperator('-')" id="minus-button" class="operator-buttons">
-          <p>-</p>
-        </button>
-        <button id="period-button" class="operator-buttons">
-          <p>.</p>
-        </button>
-        <button onclick="calcScreen += '='; operate(userInputArr[1], userInputArr[0], userInputStr);" id="equals-button" class="operator-buttons">
-          <p class="calculator-button-child">=</p>
-        </button>
-        <button onclick="selectedOperator('x')" id="multiply-button" class="operator-buttons">
-          <p class="calculator-button-child">x</p>
-        </button>
-        <button onclick="selectedOperator('÷')" id="divide-button" class="operator-buttons">
-          <p class="calculator-button-child">÷</p>
-        </button>
-        <button onclick="calcClear()" id="clear-button" class="operator-buttons">
-          <p class="calculator-button-child">C</p>
-        </button>
+        <button id="numb-0-button" class="calculator-buttons" value="0">0</button>
+        <button id="numb-1-button" class="calculator-buttons" value="1">1</button>
+        <button id="numb-2-button" class="calculator-buttons" value="2">2</button>
+        <button id="numb-3-button" class="calculator-buttons" value="3">3</button>
+        <button id="numb-4-button" class="calculator-buttons" value="4">4</button>
+        <button id="numb-5-button" class="calculator-buttons" value="5">5</button>
+        <button id="numb-6-button" class="calculator-buttons" value="6">6</button>
+        <button id="numb-7-button" class="calculator-buttons" value="7">7</button>
+        <button id="numb-8-button" class="calculator-buttons" value="8">8</button>
+        <button id="numb-9-button" class="calculator-buttons" value="9">9</button>
+        <button id="plus-button" class="operator-buttons" value="+">+</button>
+        <button id="minus-button" class="operator-buttons" value="-">-</button>
+        <button id="equals-button">=</button>
+        <button id="multiply-button" class="operator-buttons" value="x">x</button>
+        <button id="divide-button" class="operator-buttons" value="÷">÷</button>
+        <button id="clear-button" class="operator-buttons">C</button>
       </div>
     </div>
   </body>
