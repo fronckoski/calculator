@@ -1,14 +1,9 @@
-<p>A calculator made with Javascript and HTML. I am currently completing this project as an asignment while going through The Odin Project.</p>
+<p>A simple calculator made with JavaScript and HTML. This project was completed during the Foundations course through The Odin Project.</p>
   
-<h2>Features to be added:<h2>
-  <ul>
-    <li>Scaling for display text.</li>
-    <li>More efficient calculations, such as 10+10=20+5=25.</li>
-    <li>More color schemes!</li>
-  </ul>
-  
-<h2>Goals for this project:</h2>
-  <ul>
-    <li>Enhance my understanding of CSS Grid and when it is applicable.</li>
-    <li>Manually setup CSS Grid elements for a thorough understanding to better automation with future projects.</li>
-  </ul>
+<h2>Things learned during this project:</h2>
+<ul>
+  <li>More efficient troubleshooting, and google-fu.</li>
+  <li>Tooooons about CSS Grid and when it's applicable.</li>
+  <li>A lot about the flow of the backend of a web application, and how to control it.</li>
+  <li>The importance of using event listeners, opposed to "onclick" attribute in the HTML element.     </li>
+</ul>
